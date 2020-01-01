@@ -1,6 +1,10 @@
+/* Sets page background color */
+
 body {
 	background-color: #f7f7f7;
 }
+
+/* Creates a horizontal menu */
 
 .navbar ul {
 	list-style-type: none;
@@ -12,9 +16,13 @@ body {
 	background-color: #333;
 }
 
+/* Placement of the menu elements starts from the left */
+
 .navbar li {
 	float: left;
 }
+
+/* Creates a cell element in the menu with certain text format */
 
 .navbar li a {
 	display: block;
@@ -26,22 +34,32 @@ body {
 	color: #FFFFFF;
 }
 
+/* Places elements to the right */
+
 .navbar #right {
 	float: right;
 }
+
+/* Changes border position from right to left for elements that are placed to the right */
 
 .navbar #right a {
 	border-right: 0;
 	border-left: 1px solid #FFFFFF;
 }
 
+/* Changes cell background color when the mouse hovers it, if the cell doesn't link to current page */
+
 .navbar li a:hover:not(.active) {
 	background-color: #111;
 }
 
+/* Changes cell background color if it links to current page */
+
 .active {
 	background-color: #59b300;
 }
+
+/* Sets image color to white, modifies its dimensions and position in the cell */
 
 .navbar img {
 	position: relative;
@@ -53,7 +71,10 @@ body {
 
 }
 
+/* Creates footbar block and fixes it in the bottom of the page */
+
 .footer {
+	display: block;
 	margin: 0;
 	padding: 0;
 	position: fixed;
@@ -64,6 +85,8 @@ body {
 	background-color: #333;
 }
 
+/* Sets text color, size, align and font */
+
 .footer p {
 	color: #FFFFFF;
 	font-size: 10px;
@@ -71,9 +94,19 @@ body {
 	font-family: "Arial";
 }
 
+/* Sets link's text color */
+
+.footer a {
+	color: #FFFFFF;
+}
+
+/* Sets the paddings of the textbox */
+
 .textbox {
 	padding: 35px 55px;
 }
+
+/* Creates textbox block, sets its shadow, background color and rounds its corners. (+ text color, font) */
 
 .textbox div {
 	display: block;
@@ -84,13 +117,19 @@ body {
 	font-family: "Arial";
 }
 
+/* Centers a page element */
+
 .center {
 	text-align: center;
 }
 
+/* Centers the image vertically */
+
 .center img {
 	vertical-align: middle;
 }
+
+/* Sets special text format for elements with class title */
 
 .center .title {
 	font-family: "Comic Sans MS";
