@@ -1,2 +1,2 @@
 # website_template
-Website Template for teacher's pages.
+Template for teacher's website.
